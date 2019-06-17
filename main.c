@@ -33,7 +33,7 @@ void handle_command(int argc, char **argv, int *root, int *hide, int *unhide){
     *unhide = 0;
 
     int option;
-    while ((option = getopt_long(argc, argv, ':', long_options, NULL)) != -1){
+    while ((option = getopt_long(argc, argv, ":", long_options, NULL)) != -1){
         switch (option){
             case 'a':
                 *root = 1;

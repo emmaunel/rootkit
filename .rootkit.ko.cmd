@@ -1,0 +1,1 @@
+cmd_/root/Desktop/rootkit/rootkit.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.19.0-kali5-common/scripts/module-common.lds  --build-id  -o /root/Desktop/rootkit/rootkit.ko /root/Desktop/rootkit/rootkit.o /root/Desktop/rootkit/rootkit.mod.o ;  true
