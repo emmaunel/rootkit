@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rootkit.dir/main.c.o"
+  "CMakeFiles/rootkit.dir/rootkit.c.o"
   "rootkit.pdb"
   "rootkit"
 )

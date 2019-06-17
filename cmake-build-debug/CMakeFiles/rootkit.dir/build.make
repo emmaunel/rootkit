@@ -57,27 +57,27 @@ include CMakeFiles/rootkit.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/rootkit.dir/flags.make
 
-CMakeFiles/rootkit.dir/main.c.o: CMakeFiles/rootkit.dir/flags.make
-CMakeFiles/rootkit.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rootkit.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rootkit.dir/main.c.o   -c /Users/ayo/CLionProjects/rootkit/main.c
+CMakeFiles/rootkit.dir/rootkit.c.o: CMakeFiles/rootkit.dir/flags.make
+CMakeFiles/rootkit.dir/rootkit.c.o: ../rootkit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rootkit.dir/rootkit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rootkit.dir/rootkit.c.o   -c /Users/ayo/CLionProjects/rootkit/rootkit.c
 
-CMakeFiles/rootkit.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rootkit.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayo/CLionProjects/rootkit/main.c > CMakeFiles/rootkit.dir/main.c.i
+CMakeFiles/rootkit.dir/rootkit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rootkit.dir/rootkit.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayo/CLionProjects/rootkit/rootkit.c > CMakeFiles/rootkit.dir/rootkit.c.i
 
-CMakeFiles/rootkit.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rootkit.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayo/CLionProjects/rootkit/main.c -o CMakeFiles/rootkit.dir/main.c.s
+CMakeFiles/rootkit.dir/rootkit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rootkit.dir/rootkit.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayo/CLionProjects/rootkit/rootkit.c -o CMakeFiles/rootkit.dir/rootkit.c.s
 
 # Object files for target rootkit
 rootkit_OBJECTS = \
-"CMakeFiles/rootkit.dir/main.c.o"
+"CMakeFiles/rootkit.dir/rootkit.c.o"
 
 # External object files for target rootkit
 rootkit_EXTERNAL_OBJECTS =
 
-rootkit: CMakeFiles/rootkit.dir/main.c.o
+rootkit: CMakeFiles/rootkit.dir/rootkit.c.o
 rootkit: CMakeFiles/rootkit.dir/build.make
 rootkit: CMakeFiles/rootkit.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable rootkit"
