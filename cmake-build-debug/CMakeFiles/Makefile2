@@ -65,43 +65,6 @@ CMAKE_SOURCE_DIR = /Users/ayo/CLionProjects/rootkit
 CMAKE_BINARY_DIR = /Users/ayo/CLionProjects/rootkit/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/rootkit.dir
-
-# All Build rule for target.
-CMakeFiles/rootkit.dir/all:
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/depend
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target rootkit"
-.PHONY : CMakeFiles/rootkit.dir/all
-
-# Include target in all.
-all: CMakeFiles/rootkit.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/rootkit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rootkit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/rootkit.dir/rule
-
-# Convenience name for target.
-rootkit: CMakeFiles/rootkit.dir/rule
-
-.PHONY : rootkit
-
-# clean rule for target.
-CMakeFiles/rootkit.dir/clean:
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/clean
-.PHONY : CMakeFiles/rootkit.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/rootkit.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/client.dir
 
 # All Build rule for target.

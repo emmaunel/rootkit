@@ -37,46 +37,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rootkit">
-				<Option output="/Users/ayo/CLionProjects/rootkit/cmake-build-debug/rootkit" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ayo/CLionProjects/rootkit/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rootkit"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rootkit/fast">
-				<Option output="/Users/ayo/CLionProjects/rootkit/cmake-build-debug/rootkit" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ayo/CLionProjects/rootkit/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rootkit/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ayo/CLionProjects/rootkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="client">
 				<Option output="/Users/ayo/CLionProjects/rootkit/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ayo/CLionProjects/rootkit/cmake-build-debug"/>
@@ -163,9 +123,6 @@
 		</Unit>
 		<Unit filename="/Users/ayo/CLionProjects/rootkit/config.h">
 			<Option target="config"/>
-		</Unit>
-		<Unit filename="/Users/ayo/CLionProjects/rootkit/rootkit.c">
-			<Option target="rootkit"/>
 		</Unit>
 		<Unit filename="/Users/ayo/CLionProjects/rootkit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

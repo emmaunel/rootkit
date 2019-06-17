@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named rootkit
-
-# Build rule for target.
-rootkit: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rootkit
-.PHONY : rootkit
-
-# fast build rule for target.
-rootkit/fast:
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/build
-.PHONY : rootkit/fast
-
-#=============================================================================
 # Target rules for targets named client
 
 # Build rule for target.
@@ -176,33 +163,6 @@ client.c.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.c.s
 .PHONY : client.c.s
 
-rootkit.o: rootkit.c.o
-
-.PHONY : rootkit.o
-
-# target to build an object file
-rootkit.c.o:
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/rootkit.c.o
-.PHONY : rootkit.c.o
-
-rootkit.i: rootkit.c.i
-
-.PHONY : rootkit.i
-
-# target to preprocess a source file
-rootkit.c.i:
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/rootkit.c.i
-.PHONY : rootkit.c.i
-
-rootkit.s: rootkit.c.s
-
-.PHONY : rootkit.s
-
-# target to generate assembly for a file
-rootkit.c.s:
-	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/rootkit.c.s
-.PHONY : rootkit.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,15 +171,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... rootkit"
 	@echo "... client"
 	@echo "... config"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
-	@echo "... rootkit.o"
-	@echo "... rootkit.i"
-	@echo "... rootkit.s"
 .PHONY : help
 
 
