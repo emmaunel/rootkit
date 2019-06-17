@@ -32,9 +32,10 @@ void handle_command(int argc, char **argv, int *root, int *hide, int *unhide){
     *hide = 0;
     *unhide = 0;
 
-    int option;
-    while ((option = getopt_long(argc, argv, ':', long_options, NULL)) != -1){
-        switch (option){
+    int opt;
+    while ((opt = getopt_long(argc, argv, ":", long_options, NULL)) != -1){
+
+        switch (opt){
             case 'a':
                 *root = 1;
                 printf("Root");
