@@ -3,4 +3,6 @@ project(rootkit C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(rootkit main.c)
+add_executable(config config.h)
+add_executable(client client.c)
+add_executable(rootkit rootkit.c)

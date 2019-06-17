@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/ayo/CLionProjects/rootkit/cmake-build-debug
 CMakeFiles/rootkit.dir/all:
 	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/depend
 	$(MAKE) -f CMakeFiles/rootkit.dir/build.make CMakeFiles/rootkit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target rootkit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target rootkit"
 .PHONY : CMakeFiles/rootkit.dir/all
 
 # Include target in all.
@@ -98,6 +98,80 @@ CMakeFiles/rootkit.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/rootkit.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client.dir
+
+# All Build rule for target.
+CMakeFiles/client.dir/all:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
+
+# Include target in all.
+all: CMakeFiles/client.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/client.dir/rule
+
+# Convenience name for target.
+client: CMakeFiles/client.dir/rule
+
+.PHONY : client
+
+# clean rule for target.
+CMakeFiles/client.dir/clean:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/client.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/config.dir
+
+# All Build rule for target.
+CMakeFiles/config.dir/all:
+	$(MAKE) -f CMakeFiles/config.dir/build.make CMakeFiles/config.dir/depend
+	$(MAKE) -f CMakeFiles/config.dir/build.make CMakeFiles/config.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles --progress-num= "Built target config"
+.PHONY : CMakeFiles/config.dir/all
+
+# Include target in all.
+all: CMakeFiles/config.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/config.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/config.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/config.dir/rule
+
+# Convenience name for target.
+config: CMakeFiles/config.dir/rule
+
+.PHONY : config
+
+# clean rule for target.
+CMakeFiles/config.dir/clean:
+	$(MAKE) -f CMakeFiles/config.dir/build.make CMakeFiles/config.dir/clean
+.PHONY : CMakeFiles/config.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/config.dir/clean
 
 .PHONY : clean
 

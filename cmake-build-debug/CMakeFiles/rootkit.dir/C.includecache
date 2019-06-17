@@ -6,11 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/Users/ayo/CLionProjects/rootkit/main.c
-stdio.h
--
-stdlib.h
--
-getopt.h
--
+/Users/ayo/CLionProjects/rootkit/rootkit.c
 
