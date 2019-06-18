@@ -1,4 +1,0 @@
-/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles/client.dir
-/Users/ayo/CLionProjects/rootkit/cmake-build-debug/CMakeFiles/config.dir

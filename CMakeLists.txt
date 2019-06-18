@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.12)
-project(rootkit C)
-
-set(CMAKE_C_STANDARD 99)
-
-add_executable(config config.h)
-add_executable(client client.c)
